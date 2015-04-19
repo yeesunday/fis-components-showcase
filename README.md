@@ -9,7 +9,7 @@ FIS 组件使用 demo，以及网站开发目录结构示范
 npm install fis-postprocessor-require-async -g
 npm install fis-postpackager-autoload -g
 npm install fis-packager-depscombine -g
-npm isstall fis-parser-ejs -g //ejs 编译插件
+npm install fis-parser-ejs -g //ejs 编译插件
 ```
 
 安装 components

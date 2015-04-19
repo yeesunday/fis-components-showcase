@@ -56,14 +56,11 @@ fis.config.set('modules.postpackager', 'autoload');
 
 
 /**********************配置打包策略******************************/
-// 使用 depscombine 是因为，在配置 pack 的时候，命中的文件其依赖也会打包进来。
-fis.config.set('modules.packager', 'depscombine');
-//
-//fis.config.merge({
-//    pack : {
-//        'pkg/util.js' : ['scripts/util/util1.js', 'scripts/util/util2.js']
-//    }
-//});
+fis.config.merge({
+    pack : {
+        'pkg/util.js' : ['scripts/util/util1.js', 'scripts/util/util2.js']
+    }
+});
 
 /**********************配置模板引擎******************************/
 //tell fis that `.ejs` is a js file
